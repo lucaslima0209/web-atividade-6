@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instituto Federal do Paraná</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <title>IFPR</title>
   </head>
   <body>
     <header class="bg-success">
@@ -22,61 +25,142 @@
     <body class="bg-light">
       <div class="container mb-2">
         <div class="row">
-          <div class="col-lg-3">
-            <img
-              class="img-fluid"
-              src="imagens/logo.png"
-              height="200"
-              width="100"
-              alt="Logo IFPR"
-            />
+          <div class="col-3">
+            <img class="img-fluid" src="imagens/logo.png" alt="Logo IFPR" />
           </div>
-          <div class="col-lg-9 text-right">
+          <div class="col-8 text-right alig">
             <h1 class="text-end text-success">INSTITUTO FEDERAL DO PARANÁ</h1>
             <h3 class="text-end text-success">Campus Paranaguá</h3>
           </div>
         </div>
       </div>
     </body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-      <div class="container-fluid container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page"
-                >O Instituto</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">O Instituto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page"
-                >Localização</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">Localização</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fw-bold text-light" aria-current="page"
-                >Galeria</a
-              >
+              <a class="nav-link active fw-bold aria-current="page" href="#">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page"
-                >Contato</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">Contato</a>
             </li>
-          </ul>
         </div>
       </div>
     </nav>
 
-    <body class="bg-light">
-      <div class="container pt-3">
-      <h2 class="text-success"> Galeria de Fotos</h2>
-      </div>
-    </body>
+    <div class="container pt-3 bg-light">
+      <h2 class="text-success">Galeria de Fotos</h2>
+    </div>
 
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem1.jpg"/>
+        </div>
+        <div class="col-lg">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem2.jpg"/>
+        </div>
+        <div class="col-lg">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem3.jpeg"/>
+        </div>
+        <div class="col-lg">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem4.jpg"/>
+        </div>
+        <div class="col-lg">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem5.jpg"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg row">
+          <div class="col-lg-12">
+            <img class="img-fluid img-thumbnail" src="imagens/imagem6.jpg"/>
+          </div>
+          <div class="col-lg-12">
+            <img class="img-fluid img-thumbnail" src="imagens/imagem10.jpg"/>
+          </div>
+      </div>
+      <div class="col-lg-5 row">
+        <div class="col-lg-6">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem7.jpg"/>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem8.jpg"/>
+        </div>
+        <div class="col-lg-12">
+          <img class="img-fluid img-thumbnail" src="imagens/imagem11.png"/>
+        </div>
+        </div>
+          <div class="col-5">
+              <img class="img-fluid img-thumbnail" src="imagens/imagem9.jpg"/>
+          </div>
+        </div>
+      </div>
+     
+      <nav aria-label="Page navigation example">
+        <ul class="pagination pagination-lg-lg container d-flex justify-content-end mt-2 text-success">
+          <li class="page-item"><a class="page-link bi bi-arrow-left-short" href="#"></a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">6</a></li>
+          <li class="page-item"><a class="page-link" href="#">7</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item"><a class="page-link bi bi-arrow-right-short" href="#"></a></li>
+        </ul>
+      </nav>
+      
+      <footer class="bg-success">
+        <div class="container pt-3">
+          <h3 class="text-light text-center">Contato</h3>
+        </div>
+        <div class="row container justify-content-center">
+          <div class="col-lg-4 row">
+            <div class="form-group col-12 p-2">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="form-group col-lg-12 p-2">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-lg-4 p-2">
+            <div>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFileLang">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3">
+            <div class="form-group">
+              <button type="button" class="w-50 btn btn-dark">Enviar</button>
+            </div>
+         </div>
+        </div>
+      </footer>
+   
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
